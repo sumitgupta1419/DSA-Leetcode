@@ -4,7 +4,6 @@ class Solution {
         while(!hs.contains(n)){
             hs.add(n);
             int sqrsum=0;
-
             while(n!=0){
                 int rem=n%10;
                 sqrsum+=rem*rem;
@@ -14,6 +13,5 @@ class Solution {
             else n=sqrsum;
         }
         return false;
-
     }
 }
